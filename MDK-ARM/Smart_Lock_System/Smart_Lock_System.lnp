@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"smart_lock_system\startup_stm32f103xb.o"
+"smart_lock_system\main.o"
+"smart_lock_system\stm32f1xx_it.o"
+"smart_lock_system\stm32f1xx_hal_msp.o"
+"smart_lock_system\fonts.o"
+"smart_lock_system\ssd1306.o"
+"smart_lock_system\fingerprint.o"
+"smart_lock_system\stm32f1xx_hal_gpio_ex.o"
+"smart_lock_system\stm32f1xx_hal_i2c.o"
+"smart_lock_system\stm32f1xx_hal.o"
+"smart_lock_system\stm32f1xx_hal_rcc.o"
+"smart_lock_system\stm32f1xx_hal_rcc_ex.o"
+"smart_lock_system\stm32f1xx_hal_gpio.o"
+"smart_lock_system\stm32f1xx_hal_dma.o"
+"smart_lock_system\stm32f1xx_hal_cortex.o"
+"smart_lock_system\stm32f1xx_hal_pwr.o"
+"smart_lock_system\stm32f1xx_hal_flash.o"
+"smart_lock_system\stm32f1xx_hal_flash_ex.o"
+"smart_lock_system\stm32f1xx_hal_exti.o"
+"smart_lock_system\stm32f1xx_hal_tim.o"
+"smart_lock_system\stm32f1xx_hal_tim_ex.o"
+"smart_lock_system\stm32f1xx_hal_uart.o"
+"smart_lock_system\system_stm32f1xx.o"
+--strict --scatter "Smart_Lock_System\Smart_Lock_System.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Smart_Lock_System.map" -o Smart_Lock_System\Smart_Lock_System.axf
