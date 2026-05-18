@@ -4,7 +4,7 @@ This is an embedded system for Smart Lock System where users can unlock/lock doo
 The following sensors/hardware are used for making the system:
 1. STM32F103C8T6 blue pill MCU
 2.  0.96" OLED display using I2C connection protocol
-3. HC-SR307 Ultrasonic Sensor
+3. HC-SR04 Ultrasonic Sensor
 4. AS608 fingerprint sensor using UART connection protocol
 5. 4*4 membrane keypad
 6. 5V active buzzer
